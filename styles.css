@@ -1,0 +1,85 @@
+.product-layout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    background-color: lightgray;
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 200px;
+    text-align: center;
+}
+
+.employee-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.employee-card {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 250px;
+    text-align: center;
+}
+
+.student-profiles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 600px) {
+    .student-profiles {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+.student-profile {
+    background-color: lightcoral;
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 200px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.gallery-item {
+    background-color: lightgreen;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .dashboard {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.widget {
+    background-color: lightyellow;
+    margin: 10px;
+    padding: 20px;
+    flex: 1 1 250px;
+    text-align: center;
+}
